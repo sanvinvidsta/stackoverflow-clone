@@ -1,0 +1,10 @@
+# Go into the repository
+$ cd stackoverflow-clone
+
+# Heroku Setup
+$ npm install -g heroku
+$ heroku login
+$ heroku git:remote -a your-app-name
+
+# push subdirectory repository with subtree
+$ git subtree push --prefix server heroku master
