@@ -46,7 +46,7 @@ const Header = ({ className, ...props }) => {
         <Button className={styles.logo} href="/">
           <Logo />
           <p>
-            IIIT D&M <span>overflow</span>
+            <span>PRO - diaries </span> IIIT D&M
           </p>
         </Button>
         <div style={{ flex: 1 }}></div>
