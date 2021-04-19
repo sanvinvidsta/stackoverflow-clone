@@ -25,7 +25,7 @@ const UserDetail = ({ username }) => {
   return (
     <Layout extra={false}>
       <Head>
-        <title>Users {username} - PRO-Diaries</title>
+        <title>Students {username} - PRO-Diaries</title>
       </Head>
 
       <UserCard>
