@@ -42,9 +42,9 @@ const QuestionForm = () => {
           .min(30, 'Body must be at least 30 characters.')
           .max(30000, 'Body cannot be longer than 30000 characters.'),
         tags: Yup.array()
-          .required('Please enter at least one tag.')
-          .max(5, 'Please enter no more than 5 tags.')
-          .of(Yup.string().max(15, 'Tag cannot be longer than 15 characters. '))
+          .required('Please enter at least one Badge.')
+          .max(5, 'Please enter no more than 5 Badges.')
+          .of(Yup.string().max(15, 'Badge cannot be longer than 15 characters. '))
       })}
     >
       {({
@@ -85,8 +85,8 @@ const QuestionForm = () => {
               errorMessage={errors.text && errors.text}
             />
             <TagInput
-              label="Tags"
-              inputInfo="Add up to 5 tags to describe what your question is about"
+              label="Badges"
+              inputInfo="Add up to 5 Badges to describe what your question is about"
               type="text"
               name="tags"
               value={values.tags}
