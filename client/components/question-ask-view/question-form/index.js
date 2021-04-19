@@ -71,7 +71,7 @@ const QuestionForm = () => {
               onBlur={handleBlur}
               hasError={touched.title && errors.title}
               errorMessage={errors.title && errors.title}
-              placeholder="e.g Is there an R function for finding the index of an element in a vendor?"
+              placeholder="e.g How to install NASM Compiler in Windows Machine?"
             />
             <Textarea
               label="Body"
