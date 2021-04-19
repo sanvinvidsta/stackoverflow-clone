@@ -40,17 +40,17 @@ function TagsPage() {
   return (
     <Layout extra={false}>
       <Head>
-        <title>Tags - PRO-Diaries</title>
+        <title>Badges - PRO-Diaries</title>
       </Head>
 
-      <PageTitle title="Tags" borderBottom={false}>
-        A tag is a keyword or label that categorizes your question with other,
-        similar questions. Using the right tags makes it easier for others to
+      <PageTitle title="Badges" borderBottom={false}>
+        A Badge is a keyword or label that categorizes your question with other,
+        similar questions. Using the right badges makes it easier for others to
         find and answer your question.
       </PageTitle>
 
       <SearchInput
-        placeholder="Filter by tag name"
+        placeholder="Filter by badge name"
         autoFocus
         isLoading={loading}
         autoComplete="off"
@@ -74,7 +74,7 @@ function TagsPage() {
             ))}
           </TagList>
 
-          {tags.length == 0 && <p className="not-found">No tags matched your search.</p>}
+          {tags.length == 0 && <p className="not-found">No Badges matched your search.</p>}
         </>
       )}
     </Layout>
