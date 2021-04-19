@@ -3,9 +3,9 @@ import * as React from 'react'
 function SvgLogo(props) {
   return (
     <svg width="1em" height="1em" viewBox="0 0 32 37" fill="none" {...props}>
-      <path d="M26 33v-9h4v13H0V24h4v9h22z" fill="#BCBBBB" />
+      <path d="" fill="#BCBBBB" />
       <path
-        d="M21.5 0l-2.7 2 9.9 13.3 2.7-2L21.5 0zM26 18.4L13.3 7.8l2.1-2.5 12.7 10.6-2.1 2.5zM9.1 15.2l15 7 1.4-3-15-7-1.4 3zm14 10.79l.68-2.95-16.1-3.35L7 23l16.1 2.99zM23 30H7v-3h16v3z"
+        d="M 22 2 l -6 0 l 10 10 l 6 0 L 22 2 z M 16 12 L 6 2 l 6 0 l 10 10 l -4 0 z M 32 34 v -20 h -20 v 20 H 0 V 6 h 0 v -4 z"
         fill="#214B8C"
       />
     </svg>
