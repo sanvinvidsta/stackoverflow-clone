@@ -40,13 +40,13 @@ function UsersPage() {
   return (
     <Layout extra={false}>
       <Head>
-        <title>Users - PRO-Diaries</title>
+        <title>Students - PRO-Diaries</title>
       </Head>
 
-      <PageTitle title="Users" borderBottom={false} />
+      <PageTitle title="Students" borderBottom={false} />
 
       <SearchInput
-        placeholder="Search by user"
+        placeholder="Search by Student"
         isLoading={loading}
         autoFocus
         autoComplete="off"
