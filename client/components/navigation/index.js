@@ -18,19 +18,24 @@ const Navigation = () => {
         }
       >
         <World />
-        <span>Stack Overflow</span>
+        <span>PRO-Diaries</span>
       </NavItem>
 
       <NavItem href="/tags" selected={router.pathname == '/tags'}>
-        <span>Tags</span>
+        <span>Badges</span>
       </NavItem>
 
       <NavItem
         href="/users"
         selected={router.pathname.split('/')[1] == 'users'}
       >
-        <span>Users</span>
+        <span>Students</span>
       </NavItem>
+
+      <NavItem href="https://dbms-group5.github.io/main/#about">
+        <span>ABOUT US</span>
+      </NavItem>
+
     </nav>
   )
 }
